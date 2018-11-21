@@ -116,10 +116,7 @@
   //var table = "";
    var href = '{{Request::get("table")}}'
   $(function () {
-   
-    //alert(href)
-    if (href=="Supplier") {
-     // table = "Supplier";
+     if (href=="Supplier") {
        columns =[
        {'title':"Id",data:"id"},
        {'title':"Name",data:"name"},
